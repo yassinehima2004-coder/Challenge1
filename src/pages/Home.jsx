@@ -3,40 +3,6 @@ import { ChevronDown, Link, Moon } from "lucide-react";
 export default function Home() {
   return (
     <>
-    <header
-      className="absolute top-0 z-50 w-full transition-all duration-500 "
-    >
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-md bg-gradient-to-br from-indigo-500 to-blue-400" />
-          <span className="text-3xl font-extrabold tracking-tight text-slate-900">
-            Startup
-          </span>
-        </div>
-
-        <nav className="hidden items-center gap-10 md:flex">
-          <a href="#home" className="text-blue-500">Home</a>
-          <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#blog" className="hover:text-blue-600">Blog</a>
-          <a href="#support" className="hover:text-blue-600">Support</a>
-          <button className="flex items-center gap-1 hover:text-blue-600">
-            Pages <ChevronDown size={18} />
-          </button>
-        </nav>
-
-        <div className="flex items-center gap-4">
-          <a href="#signin" className="hidden font-medium md:inline-block">
-            Sign In
-          </a>
-          <button className="rounded-md bg-indigo-500 px-7 py-3 font-semibold text-white shadow-md hover:bg-indigo-600">
-            Sign Up
-          </button>
-          <button className="rounded-full p-2 hover:bg-slate-100">
-            <Moon size={26} />
-          </button>
-        </div>
-      </div>
-    </header>
     <main id="home" className=" overflow-hidden pt-20">
       <div className="absolute -right-24 -top-24 h-[380px] w-[380px] rounded-full bg-indigo-200/70" />
       <div className="absolute right-10 top-28 h-56 w-56 rounded-full border border-indigo-400/40" />

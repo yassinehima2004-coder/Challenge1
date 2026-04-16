@@ -17,13 +17,13 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-500 ${
+      className={` top-0 left-0 z-50 w-full transition-all  ${
         visible
-          ? "translate-y-0 opacity-100 bg-white/80 backdrop-blur-xs border-b border-slate-200/60 shadow-sm"
-          : "-translate-y-full opacity-0 pointer-events-none"
+          ? "fixed translate-y-0 opacity-100 bg-white/80 backdrop-blur-xs border-b border-slate-200/60 shadow-sm"
+          : "absolute bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
+      <div className="mx-auto flex py-4 max-w-7xl items-center justify-between px-6 lg:px-10">
         <div className="flex items-center gap-3">
           <div className="h-10 w-10 rounded-md bg-gradient-to-br from-indigo-500 to-blue-400" />
           <span className="text-3xl font-extrabold tracking-tight text-slate-900">
