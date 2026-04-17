@@ -1,9 +1,8 @@
-import { ChevronDown, Link, Moon } from "lucide-react";
 
 export default function Home() {
   return (
     <>
-    <main id="home" className=" overflow-hidden pt-20">
+    <main id="home" className="max-w-7xl overflow-hidden pt-20">
       <div className="absolute -right-24 -top-24 h-[380px] w-[380px] rounded-full bg-indigo-200/70" />
       <div className="absolute right-10 top-28 h-56 w-56 rounded-full border border-indigo-400/40" />
       <div className="absolute right-20 top-32 h-64 w-64 rounded-full bg-indigo-300/40" />
@@ -25,7 +24,7 @@ export default function Home() {
 
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
           <button className="rounded-md bg-indigo-500 px-8 py-4 font-semibold text-white shadow-md hover:bg-indigo-600">
-            🔥 Get Pro
+            🔥 Get Pro 
           </button>
           <button className="rounded-md bg-slate-900 px-8 py-4 font-semibold text-white shadow-md hover:bg-slate-800">
             Star on GitHub
