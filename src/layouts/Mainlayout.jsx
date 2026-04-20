@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Mainlayout = () => {
     return ( 
-        <>
+        <div className="flex flex-col items-center">
         <Navbar />
         <main>
             <Outlet />
@@ -12,7 +12,7 @@ const Mainlayout = () => {
         <Footer/>
         
         
-        </>
+        </div>
      );
 }
  
